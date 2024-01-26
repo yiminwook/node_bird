@@ -5,7 +5,7 @@ import styles from "@/app/(beforeLogin)/_component/main.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <>
       <div className={styles.left}>
         <Image src={zlogo} alt="logo" />
       </div>
@@ -20,6 +20,6 @@ export default function Home() {
           로그인
         </Link>
       </div>
-    </div>
+    </>
   );
 }
