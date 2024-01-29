@@ -10,6 +10,7 @@ export default function LoginModal() {
   const [password, setPassword] = useState();
   const [message, setMessage] = useState();
   const onSubmit = () => {};
+
   const onClickClose = () => {
     router.push("/");
   };

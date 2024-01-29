@@ -8,11 +8,15 @@ import LogoutButton from "./_component/Logoutbutton";
 import TrendSection from "./_component/TrendSection";
 import FollowRecommend from "./_component/FollowRecommend";
 
-interface LayoutProps {
+interface AfterLoginLayoutProps {
   children: ReactNode;
+  modal: ReactNode;
 }
 
-export default function Layout({ children }: LayoutProps) {
+export default function AfterLoginLayout({
+  children,
+  modal,
+}: AfterLoginLayoutProps) {
   const me = {
     // 임시로 내 정보 있는것처럼
     id: "zerohch0",
@@ -66,6 +70,7 @@ export default function Layout({ children }: LayoutProps) {
           </section>
         </div>
       </div>
+      {modal}
     </div>
   );
 }
