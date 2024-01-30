@@ -1,10 +1,10 @@
 "use client";
 
-import style from "@/app/(afterLogin)/[username]/profile.module.css";
+import styles from "@/app/(afterLogin)/[username]/profile.module.css";
 
 export default function BackButton() {
   return (
-    <button className={style.backButton}>
+    <button className={styles.backButton}>
       <svg
         width={24}
         viewBox="0 0 24 24"

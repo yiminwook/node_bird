@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import style from "./profile.module.css";
 import Post from "@/app/(afterLogin)/_component/Post";
-import BackButton from "@/app/(afterLogin)/[username]/_component/BackButton";
+import BackButton from "@/app/(afterLogin)/_component/BackButton";
 export default function Profile() {
   const user = {
     id: "zerohch0",
